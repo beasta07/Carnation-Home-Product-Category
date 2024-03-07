@@ -1,0 +1,24 @@
+:root {
+  font-family: "League Spartan", sans-serif;
+}
+
+.input-group {
+  position: relative;
+  overflow: hidden;
+}
+
+.input-fields {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 200%;
+  transition: transform 0.5s ease-in-out; /* Add transition property */
+}
+
+.signin-active {
+  transform: translateX(0%);
+}
+
+.signup-active {
+  transform: translateX(-50%);
+}
